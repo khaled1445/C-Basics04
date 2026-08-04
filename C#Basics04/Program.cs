@@ -67,6 +67,27 @@ namespace C_Basics04
             //int pages = 464;
             //Console.WriteLine(string.Format("Book: {0}, Pages: {1}", title, pages));
             #endregion
+
+            #region 18
+            //.Write a method PrintFirstBook() that prints the first book in the books array.
+            //If the array is empty, use return to exit the method early instead of printing anything.
+
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //string PrintFirstBook(string[] books)
+            //{
+            //    if (books.Length == 0)
+            //    {
+            //        return "The array is empty.";
+            //    }
+            //    else
+            //    {
+            //        return books[0];
+            //    }
+            //}
+
+            //Console.WriteLine(PrintFirstBook(books));
+
+            #endregion
         }
     }
 }
