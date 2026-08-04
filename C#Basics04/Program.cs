@@ -53,6 +53,13 @@ namespace C_Basics04
             //int pages = 464;
             //Console.WriteLine("Book: " + title +"||"+ "pages: " + pages);
             #endregion
+
+            #region Problem 6  
+            ////Build the same sentence as above, but using string interpolation ($"...").
+            //string title = "Clean Code";
+            //int pages = 464;
+            //Console.WriteLine($"Book: {title}, Pages: {pages}");
+            #endregion
         }
     }
 }
