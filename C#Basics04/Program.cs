@@ -1,4 +1,6 @@
-﻿namespace C_Basics04
+﻿using System.Text;
+
+namespace C_Basics04
 {
     internal class Program
     {
@@ -26,6 +28,14 @@
             //}
             #endregion
 
+            #region Problem 3
+            ////.Create a StringBuilder, Append() the text "Book List",
+            ////then Append() " - Updated" onto the same object. Print the final result
+            //StringBuilder sb01 = new StringBuilder();
+            //sb01.Append("Book List");
+            //sb01.Append(" - Updated");
+            //Console.WriteLine(sb01);
+            #endregion
         }
     }
 }
