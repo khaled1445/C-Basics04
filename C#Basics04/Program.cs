@@ -37,6 +37,15 @@ namespace C_Basics04
             //Console.WriteLine(sb01);
             #endregion
 
+            #region Problem 4
+            ////Using the StringBuilder from the question above,use Replace() to change "Book List" into "Library".Print the result
+            //StringBuilder sb01 = new StringBuilder();
+            //sb01.Append("Book List");
+            //sb01.Append(" - Updated");
+            //sb01.Replace("Book List","Library");
+            //Console.WriteLine(sb01);
+            #endregion
+
         }
     }
 }
