@@ -68,7 +68,7 @@ namespace C_Basics04
             //Console.WriteLine(string.Format("Book: {0}, Pages: {1}", title, pages));
             #endregion
 
-            #region 18
+            #region Problem 18
             //.Write a method PrintFirstBook() that prints the first book in the books array.
             //If the array is empty, use return to exit the method early instead of printing anything.
 
