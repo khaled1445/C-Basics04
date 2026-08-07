@@ -124,6 +124,16 @@ namespace C_Basics04
             //}
             //Console.WriteLine(PrintBookTitle("Clean Code"));
             #endregion
+
+            #region Problem 5
+            ////Write a method AddBonusPages(int pages) that adds 50 to pages. Call it with a variable int pages = 400;
+            ////and print pages afterward. What do you expect to see, and why?
+            //int AddBonusPages(int pages) 
+            //{
+            //    return pages + 50;
+            //}
+            //Console.WriteLine(AddBonusPages(400));
+            #endregion
         }
     }
 }
