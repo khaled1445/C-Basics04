@@ -115,6 +115,15 @@ namespace C_Basics04
             //}
             //Console.WriteLine(PrintWelcomeMessage());
             #endregion
+
+            #region Problem 4 
+            ////Write a method PrintBookTitle(string title) that prints "Book title: " + title. Call it with "Clean Code"
+            //string PrintBookTitle(string title) 
+            //{
+            //    return "book title: " + title;
+            //}
+            //Console.WriteLine(PrintBookTitle("Clean Code"));
+            #endregion
         }
     }
 }
