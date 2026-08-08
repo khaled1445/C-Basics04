@@ -4,7 +4,7 @@ namespace C_Basics04
 {
     internal class Program
     {
-        
+
         static void Main(string[] args)
         {
             // the rest of Assignment 3 
@@ -141,15 +141,30 @@ namespace C_Basics04
             //Call it with double[] prices = { 25.5, 40.0 }; and print prices[0] afterward. What do you expect to see, and why?
             //i'll see 20.5 because the method modifies the original array, and arrays are reference types in C#.
 
-            static void ApplyDiscount(double[] prices)
-            {
-                prices[0] -= 5;
+            //static void ApplyDiscount(double[] prices)
+            //{
+            //    prices[0] -= 5;
 
-            }
+            //}
 
-            double[] prices = { 25.5, 40.0 };
-            ApplyDiscount(prices);
-            Console.WriteLine(prices[0]);
+            //double[] prices = { 25.5, 40.0 };
+            //ApplyDiscount(prices);
+            //Console.WriteLine(prices[0]);
+            #endregion
+
+            #region Problem 7
+            //Rewrite the method from question 5 as AddBonusPagesByRef(ref int pages) using ref.
+            //Call it and print pages afterward. How is the result different from question 5?
+            //int AddddbonusPages(ref int pages) 
+            //{
+            //    return pages + 50;
+            //}
+            //int pages = 400;
+            //Console.WriteLine(AddddbonusPages(ref pages));
+            //Console.WriteLine("==============================");
+            //Console.WriteLine(pages);
+            ////The result is different from question 5 because the ref keyword allows the method to modify the original variable
+            ////Not the reference, so the value of pages is updated to 450 after the method call.
             #endregion
         }
     }
