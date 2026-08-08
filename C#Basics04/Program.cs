@@ -200,7 +200,18 @@ namespace C_Basics04
             //}
             //Console.WriteLine(TryGetPrice("Clean Code",out double price));
             //Console.WriteLine("Price is " + price);
-            
+
+            #endregion
+
+            #region Problem 10
+            ////Write a method PrintBookInfo(string title, int pages = 300) where pages is optional.
+            ////Call it once with only a title, and once passing both a title and pages.
+            //static void PrintBookInfo(string title, int pages = 300) 
+            //{
+            //    Console.WriteLine($"book title is {title} it's {pages} pages");
+            //}
+            //PrintBookInfo("Clean Code");
+            //PrintBookInfo("C#", 250);
             #endregion
         }
     }
