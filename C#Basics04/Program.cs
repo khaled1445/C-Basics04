@@ -166,6 +166,19 @@ namespace C_Basics04
             ////The result is different from question 5 because the ref keyword allows the method to modify the original variable
             ////Not the reference, so the value of pages is updated to 450 after the method call.
             #endregion
+
+            #region Problem 8
+            //Write a method ReplaceArray(ref double[] prices) that replaces prices entirely with a new array { 10.0, 12.5, 15.0 }
+            //. Call it with your prices array and print prices.Length afterward.
+
+            //static void ReplaceArraay(ref double[] prices)
+            //{
+            //    prices = new double[] { 10.0, 12.5, 15.0 };
+            //}
+            //double[] prices = {1.0, 2.0, 3.0, 4.0, 5.0, 6.0};
+            //ReplaceArraay(ref prices);
+            //Console.WriteLine(prices.Length);
+            #endregion
         }
     }
 }
