@@ -222,6 +222,19 @@ namespace C_Basics04
             //}
             //PrintBookInfo(pages:220, title:"C#");
             #endregion
+
+            #region Problem 12
+         //Write a method PrintAllTitles(params string[] titles) that prints each title on its own line. Call it with three book titles
+            //static void PrintAllTitles(params string[] titles) 
+            //{
+            //    for (int i = 0; i < titles.Length; i++) 
+            //    {
+            //        Console.WriteLine($"book {i} title is {titles[i]}");
+            //    }
+
+            //}
+            //PrintAllTitles("C#", "Clean Code", ".Net");
+            #endregion
         }
     }
 }
