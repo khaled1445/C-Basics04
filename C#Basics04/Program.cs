@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Reflection;
+using System.Text;
 
 namespace C_Basics04
 {
@@ -178,6 +179,28 @@ namespace C_Basics04
             //double[] prices = {1.0, 2.0, 3.0, 4.0, 5.0, 6.0};
             //ReplaceArraay(ref prices);
             //Console.WriteLine(prices.Length);
+            #endregion
+
+            #region Problem 9
+            //Write a method bool TryGetPrice(string title,out double price)that returns true and sets price to 25.5 if title is"Clean Code",
+            //otherwise returns false and sets price to 0. Call it and print the price if found
+            //static bool TryGetPrice(string title, out double price) 
+            //{
+            //    if (title == "Clean Code")
+            //    {
+            //        price = 25.5;
+            //        return true;
+            //    }
+            //    else 
+            //    {
+            //        price = 0.0;
+            //        return false;
+            //    }
+
+            //}
+            //Console.WriteLine(TryGetPrice("Clean Code",out double price));
+            //Console.WriteLine("Price is " + price);
+            
             #endregion
         }
     }
