@@ -213,6 +213,15 @@ namespace C_Basics04
             //PrintBookInfo("Clean Code");
             //PrintBookInfo("C#", 250);
             #endregion
+
+            #region Problem 11
+            ////Using the PrintBookInfo method from the question above, call it by naming the parameters, passing pages before title
+            //static void PrintBookInfo(string title, int pages = 300)
+            //{
+            //    Console.WriteLine($"book title is {title} it's {pages} pages");
+            //}
+            //PrintBookInfo(pages:220, title:"C#");
+            #endregion
         }
     }
 }
