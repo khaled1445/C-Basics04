@@ -4,6 +4,7 @@ namespace C_Basics04
 {
     internal class Program
     {
+        
         static void Main(string[] args)
         {
             // the rest of Assignment 3 
@@ -133,6 +134,22 @@ namespace C_Basics04
             //    return pages + 50;
             //}
             //Console.WriteLine(AddBonusPages(400));
+            #endregion
+
+            #region Problem 6
+            //Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0].
+            //Call it with double[] prices = { 25.5, 40.0 }; and print prices[0] afterward. What do you expect to see, and why?
+            //i'll see 20.5 because the method modifies the original array, and arrays are reference types in C#.
+
+            static void ApplyDiscount(double[] prices)
+            {
+                prices[0] -= 5;
+
+            }
+
+            double[] prices = { 25.5, 40.0 };
+            ApplyDiscount(prices);
+            Console.WriteLine(prices[0]);
             #endregion
         }
     }
